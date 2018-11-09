@@ -68,6 +68,7 @@ function showMiniCart(){
             $('.minus').on('click', minusGoods);
             $('.delete').on('click', deleteGoods);
         }
+        //увеличение кол-ва продуктов
         function plusGoods(){
             var articul = $(this).attr('data-art');
             cart[articul]++;
